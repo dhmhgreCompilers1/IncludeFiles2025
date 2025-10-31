@@ -38,7 +38,7 @@ FILENAME  [a-zA-Z_][a-zA-Z0-9_]*\.[a-zA-Z_][a-zA-Z0-9_]*
 								 free(fname);
 							   }
 
-.|\n	{	printf("\n%s",yytext);  }
+.|\n	{	printf("%s",yytext);  }
 
 <<EOF>>  {
 			// 1. Check if there are stored buffers to return to

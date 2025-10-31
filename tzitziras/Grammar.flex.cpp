@@ -773,7 +773,7 @@ case 2:
 /* rule 2 can match eol */
 YY_RULE_SETUP
 #line 41 "Grammar.l"
-{	printf("\n%s",yytext);  }
+{	printf("%s",yytext);  }
 	YY_BREAK
 case YY_STATE_EOF(INITIAL):
 #line 43 "Grammar.l"
